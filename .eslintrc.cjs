@@ -30,6 +30,6 @@ module.exports = {
     ],
     'vue/no-setup-props-destructure': ['off'], //关闭props结构的校验
     // 添加未定义变量错误提示，create-vue@3.6.3关闭
-    'no-undef': 'off'
+    'no-undef': 'error'
   }
 }
