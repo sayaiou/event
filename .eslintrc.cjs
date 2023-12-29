@@ -31,5 +31,11 @@ module.exports = {
     'vue/no-setup-props-destructure': ['off'], //关闭props结构的校验
     // 添加未定义变量错误提示，create-vue@3.6.3关闭
     'no-undef': 'error'
+  },
+  //声明全局变量名阻止eslint报错
+  globals: {
+    ElMessage: 'readonly',
+    ElMessageBox: 'readonly',
+    ElLoading: 'readonly'
   }
 }
